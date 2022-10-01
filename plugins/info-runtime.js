@@ -1,4 +1,3 @@
-//Thanks Papah-Chan https://github.com/FahriAdison
 let { generateWAMessageFromContent } = (await import("@adiwajshing/baileys")).default 
 import { performance } from 'perf_hooks'
 import fs from 'fs'
@@ -31,7 +30,7 @@ function kyun(seconds){
 							}
 					}
 						    
-						  let prep = generateWAMessageFromContent(m.chat, { orderMessage: { 
+						  /*let prep = generateWAMessageFromContent(m.chat, { orderMessage: { 
 itemCount: -10062007, status: 500,
 surface: 999,
 message: teks,
@@ -44,7 +43,7 @@ totalAmount1000: '1000000',
 sellerJid: '6285736178354@s.whatsapp.net',
 thumbnail: fs.readFileSync('./thumbnail.jpg')
 }}, {contextInfo: null, quoted: m})
-conn.relayWAMessage(prep)
+conn.relayWAMessage(prep)*/
 				/*	conn.sendMessage(m.chat, `${teks}`, MessageType.text, rtimebro)*/
 }
 

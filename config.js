@@ -1,21 +1,3 @@
-// S C R I P T  O R I  B Y  Bochilgaming 🔭
-// Ditulis Ulang Oleh ImYanXiao
-// Credits, jangan dihapus atau diubah!
-
-// - - THANKS TO - -
-// • Allah SWT
-// • Nurutomo
-// • Bochilgaming
-// • Rominaru
-// • Kannachann
-// • FahriAdison
-// • The.Sad.Boy01
-// • Rlxfly
-// • Rasel comel
-// • ImYanXiao
-// • Xtreshe (Beban)
-// • Dll
-
 //[!] Jangan Lupa Ganti Ownernya
 
 import { watchFile, unwatchFile } from 'fs'
@@ -47,19 +29,19 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
-global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
+global.sig = 'https://www.instagram.com/Bintang_1302/' //Link Instagrammu
+global.sgh = 'https://github.com/Bintang1302' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085736178354' //Nomor Danamu
-global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '6281326996025' //Nomor Danamu
+global.ppulsa = '6281326996025' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://saweria.co/Bintang1302' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285869178312' //Nomor Bot
+global.nomorbot = '6281326996025' //Nomor Bot
 global.nomorown = '6281392327978' //Nomor Owner
 global.namebot = 'InsoBot-MD' //Nama Bot
 global.nameown = 'Bintang 1302' // Nama Owner
@@ -102,19 +84,20 @@ global.APIKeys = { // APIKey Here
 global.wm = '                「 InsoBot-MD  」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘InsoBot-MD˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ InsoBot-MD'
+global.wz = '*InsoBot-MD*'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
-global.author = global.wm
+global.author = 'InsoBot-MD'
 global.logo = 'https://ibb.co/17RY7x9'
 
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/0c6ff83f2adbcf4693314.gif' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/26b515d170f1e599f78a7.jpg'
-global.thumbbc = 'https://telegra.ph/file/05f874dc87f7e27fa8127.jpg' //For broadcast
-global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
+global.thumb = 'https://media.discordapp.net/attachments/996447135547539478/1000732330173935676/InsoBot.gif' //Main Thumbnail
+global.thumb2 = 'https://media.discordapp.net/attachments/996447135547539478/996738421689172028/insobot.png'
+global.thumbbc = './media/insobot.png' //For broadcast
+global.giflogo = 'https://media.discordapp.net/attachments/996447135547539478/1000732330173935676/InsoBot.gif'
 global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
 'https://i.pinimg.com/originals/85/4d/bb/854dbbd30304cd69f305352f0183fad0.jpg',
 'https://i.pinimg.com/originals/32/2c/a4/322ca456fa2cdec4b717895a65adfa8d.jpg',
@@ -337,7 +320,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://media.discordapp.net/attachments/996447135547539478/996738421689172028/insobot.png'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB

@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, command, args: [event], text }) => {
 ${usedPrefix + command} welcome @user
 ${usedPrefix + command} bye @user
 ${usedPrefix + command} promote @user
-${usedPrefix + command} demote @user`.trim(), wm, null, [['Welcome', '#simulate welcome'], ['Bye', '#simulate bye']])
+${usedPrefix + command} demote @user`.trim(), null, [['Welcome', '#simulate welcome'], ['Bye', '#simulate bye']])
     let mentions = text.replace(event, '').trimStart()
     let who = mentions ? conn.parseMention(mentions) : []
     let part = who.length ? who : [m.sender]

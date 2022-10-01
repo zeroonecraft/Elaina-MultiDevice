@@ -37,5 +37,3 @@ handler.command = /^(menfess|menfes)$/i
 handler.private = true
 
 export default handler
-
-//Credit? https://github.com/ImYanXiao

@@ -8,7 +8,7 @@ let handler = async (m, { conn, text }) => {
     if (!who) throw 'Tag salah satu bang'
     let users = db.data.users
     users[who].banned = true
-    conn.reply(m.chat, `mampos dibanned awowkwkowkw`, m)
+    conn.reply(m.chat, `Done`, m)
 }
 handler.help = ['ban @user']
 handler.tags = ['owner']

@@ -4,7 +4,7 @@ let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
  await conn.sendButton(m.chat, `Total Fitur Bot Saat ini: ${totalf}\n`,wm + '\n\n' + botdate, giflogo, [['MENU','.menu']], m, {
-contextInfo: { externalAdReply :{
+/*contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
@@ -12,7 +12,7 @@ contextInfo: { externalAdReply :{
                         body: 'Total Cintaku Padamu',          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
                         sourceUrl: sig
-                      }}
+                      }}*/
 })
 }
 

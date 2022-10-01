@@ -12,20 +12,7 @@ ${pickRandom(global.bacot)}
             document: { url: thumb },
             jpegThumbnail: await (await fetch(thumb)).buffer(), fileName: '─────〔 𝗕𝗔𝗖𝗢𝗧 〕─────', mimetype: dpdf, fileLength: fsizedoc, pageCount: fpagedoc,
             caption: anu,
-            footer: wm,
             templateButtons: [
-                {
-                    urlButton: {
-                        displayText: '🌎 OFFICIAL GROUP',
-                        url: sgc
-                    }
-                },
-                {
-                    urlButton: {
-                        displayText: '📷 FOLLOW ME',
-                        url: sig
-                    }
-                },
                 {
                     quickReplyButton: {
                         displayText: 'NEXT',

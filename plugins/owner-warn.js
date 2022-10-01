@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
         if (warning < 3) {
             global.db.data.users[ban].warning += 1
             m.reply(`*berhasil Warn!*`)
-            conn.sendButton(ban, '*Kamu di warn oleh moderator, dan sekarang kamu punya ' + (warning + 1) + '.Jika kamu mendapat warn lebih dari 3 kali maka kamu akan secara otomatis terbanned*', wm, 'Creator', usedPrefix + 'creator', null)
+            conn.sendButton(ban, '*Kamu di warn oleh moderator, dan sekarang kamu punya ' + (warning + 1) + '.Jika kamu mendapat warn lebih dari 3 kali maka kamu akan secara otomatis terbanned*', 'Creator', usedPrefix + 'creator', null)
         } else if (warning == 3) {
             global.db.data.users[ban].banned = true
             global.db.data.users[ban].warning = 0

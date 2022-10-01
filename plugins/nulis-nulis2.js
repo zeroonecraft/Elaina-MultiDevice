@@ -2,7 +2,6 @@ import { format } from 'util'
 // let path = require('path')
 import { spawn } from 'child_process'
 
-// Font By MFarelS:V
 let fontPath = 'src/font/Zahraaa.ttf'
 let handler = async (m, { conn, args }) => {
     if (!global.support.convert &&
@@ -71,6 +70,3 @@ handler.tags = ['tools']
 handler.command = /^nulis2$/i
 
 export default handler
-
-// BY MFARELS
-// https://GitHub.com/MFarelS/

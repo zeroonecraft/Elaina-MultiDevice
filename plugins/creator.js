@@ -18,20 +18,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • No Telp`
 
 //------------ BIO
-let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
+let ppown = 'https://media.discordapp.net/attachments/996447135547539478/996738421689172028/insobot.png'
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Yan Xiao
-${htjava} *✉️ Nama RL* : Rahasia🗿
+${htjava} *💌 Nama* : Bintang 1302
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : 15 Oktober 2004
-${htjava} *🎨 Umur* : 17
-${htjava} *🧮 Kelas* : 12
-${htjava} *🧩 Hobby* : Nonton Donghua, Chatting, Musik, Recode script bot
-${htjava} *💬 Sifat* : Idiot, Tidak Ramah, Bilek, Prik, Nolep
-${htjava} *🗺️ Tinggal* : Indo, Tulungagung, Jawa Timur
-${htjava} *❤️ Suka* : kucing
-${htjava} *💔 Benci* : autis, seleb
+${htjava} *⏰ Tanggal lahir* : 13 Februari 2006
+${htjava} *🎨 Umur* : 16
+${htjava} *🧮 Kelas* : 11
+${htjava} *🧩 Hobby* : , Recode script bot
+${htjava} *💬 Sifat* : Gak Tau 🗿
+${htjava} *🗺️ Tinggal* : Indo, Kebumen, Jawa Tengah
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Fay Cat's Kun
@@ -44,8 +41,7 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	{title: "🎨 • Biodata", rowId: ".owner bio"}
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,

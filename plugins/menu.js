@@ -263,7 +263,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝚁𝚎𝚜𝚙𝚘𝚗 𝙱𝙾𝚃"},
 	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚆𝚊𝚔𝚝𝚞 𝙱𝙾𝚃 𝙱𝚎𝚛𝚓𝚊𝚕𝚊𝚗"}, 
 	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝚃𝚎𝚗𝚝𝚊𝚗𝚐 𝙾𝚠𝚗𝚎𝚛"},
-	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
 	]
     },{
 	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
@@ -294,7 +293,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
 	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
 	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
-	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
+	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
 	]
@@ -313,8 +312,8 @@ let tek = `✧────···[ Dashboard ]···────✧
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
-┴ ▸ *ᴏᴡɴᴇʀ :* ɪᴍ-ʏᴀɴxɪᴀᴏ
+│ ▸ *ᴏᴡɴᴇʀ :* Bintang 1302
+┴ 
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
@@ -445,7 +444,7 @@ const listMessage = {
   }
   }
   
-    let urls = pickRandom(['https://telegra.ph/file/035e524939ab0294ba91f.jpg', 'https://telegra.ph/file/96b2275d3b14d071290bc.jpg', 'https://telegra.ph/file/2c6b7660bc6126404a9bb.jpg', 'https://telegra.ph/file/c635bf577bb9d59a3e00b.jpg', 'https://telegra.ph/file/be8dd52f6363f9e9f5a60.jpg', 'https://telegra.ph/file/02e53361b9dc946f63c8d.jpg', 'https://telegra.ph/file/298ed2f1bba17aeb64ca8.jpg', 'https://telegra.ph/file/be2a18221974147f66ea0.jpg'])
+    let urls = pickRandom(['https://media.discordapp.net/attachments/996447135547539478/996738421689172028/insobot.png'])
  
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
     
@@ -685,43 +684,43 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   let res = "Kok Belum Tidur Kak? 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "Pagi Kak 🌄"
   }
   if (time >= 10) {
-    res = "Siang Lord ☀️"
+    res = "Siang Kak ☀️"
   }
   if (time >= 15) {
-    res = "Sore Lord 🌇"
+    res = "Sore Kak 🌇"
   }
   if (time >= 18) {
-    res = "Malam Lord 🌙"
+    res = "Malam Kak 🌙"
   }
   return res
 }
 function timeimg() {
     let imgloc = ''
   const time = moment.tz('Asia/Jakarta').format('HH')
-  imgloc = ('./media/elaina8.png')
+  imgloc = ('./media/insobot0.png')
   if (time >= 0) {
-    imgloc = ('./media/elaina.png')
+    imgloc = ('./media/insobot0.png')
   }
   if (time >= 4) {
-    imgloc = ('./media/elaina2.png')
+    imgloc = ('./media/insobot0.png')
   }
   if (time >= 8) {
-    imgloc = ('./media/elaina3.png')
+    imgloc = ('./media/insobot0.png')
   }
   if (time >= 12) {
-    imgloc = ('./media/elaina4.png')
+    imgloc = ('./media/insobot0.png')
   }
   if (time >= 16) {
-    imgloc = ('./media/elaina5.png')
+    imgloc = ('./media/insobot0.png')
   }
   if (time >= 20) {
-    imgloc = ('./media/elaina6.png')
+    imgloc = ('./media/insobot0.png')
   }
   if (time >= 24) {
-    imgloc = ('./media/elaina7.png')
+    imgloc = ('./media/insobot0.png')
   }
   return imgloc
 }

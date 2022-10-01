@@ -1,10 +1,3 @@
-//~~~~ Don't Delete For Credit
-//~~~~ Made By ImYanXiao
-//~~~~ Special Thanks Kazuko & Reysekha For DATABASE
-//1) Kazuko: https://github.com/kazuko
-//2) Rey: https://github.com/inirey
-//JANGAN LUPA UBAH APIKEYNYA DI CONFIG.JS
-
 //------ FUNCTION 
 function pickRandom(list) {
      return list[Math.floor(Math.random() * list.length)]

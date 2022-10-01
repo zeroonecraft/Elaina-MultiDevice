@@ -20,7 +20,7 @@ case 'neko':
   if (!_neko.ok) throw await _neko.text()
   let neko = await _neko.json()
   if (!neko.url) throw global.error
-  conn.sendButton(m.chat,  'Dasar Furry', wm, neko.url, [['Next','.neko']],m)
+  conn.sendButton(m.chat,  'Dasar Furry', neko.url, [['Next','.neko']],m)
 break 
 
 case 'megumin':
@@ -28,7 +28,7 @@ case 'megumin':
   if (!_megumin.ok) throw await _megumin.text()
   let megumin = await _megumin.json()
   if (!megumin.url) throw global.error
-  conn.sendButton(m.chat, 'Istrinya Kartun🐦', wm, megumin.url, [['Next','.megumin']],m)
+  conn.sendButton(m.chat, 'Istrinya Kartun🐦', megumin.url, [['Next','.megumin']],m)
 break
 
 default:
