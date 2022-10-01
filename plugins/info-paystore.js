@@ -76,7 +76,7 @@ await conn.sendMessage(m.chat, listMessage)
 }
 
 handler.help = ['sewa', 'premium']
-handler.tags = ['main']
+handler.tags = ['support']
 handler.command = /^(sewa(bot)?|premium)$/i
 
 export default handler

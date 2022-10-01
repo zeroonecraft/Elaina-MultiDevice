@@ -64,6 +64,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
+  'support': 'Support',
   'game': 'Game',
   'rpg': 'RPG Games',
   'xp': 'Exp & Limit',
@@ -94,6 +95,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 }
   if (teks == 'game') tags = {
     'game': 'Game'
+  }
+  if (teks == 'support') tags = {
+    'support': 'Support'
   }
   if (teks == 'anime') tags = {
     'anime': 'Anime'
@@ -267,7 +271,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     },{
 	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
 	rows: [
-	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚠𝚗𝚎𝚛 𝙰𝚐𝚊𝚛 𝙻𝚎𝚋𝚒𝚑 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝'},
+      {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚠𝚗𝚎𝚛 𝙰𝚐𝚊𝚛 𝙻𝚎𝚋𝚒𝚑 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝'},
+	    {title: `Ⓟ ${pmenus} SEWA/PREMIUM`, rowId: ".sewa", description: '𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 List Harga Sewa/Premium'},
 	]
 	},{
 	title: `${htki} ᴍᴇɴᴜ ${htka}`,
@@ -578,12 +583,6 @@ const listMessage = {
                     urlButton: {
                         displayText: `${namebot}`,
                         url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
-                    }
-                },
-                {
-                    urlButton: {
-                        displayText: 'Instagram',
-                        url: sig
                     }
                 },
                 {

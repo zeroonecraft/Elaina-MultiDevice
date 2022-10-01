@@ -99,7 +99,6 @@ let futanari = true
 let gangbang = false
 let girlsolo = true
 let glasses = false
-let hentai = true
 let holo = false
 let jahy = true
 let kitsune = true
@@ -166,7 +165,6 @@ const sections = [
 	{title: `${(ch == true ? false : gangbang) == true ? p:f}` + "G • Gangbang", rowId: ".nsfw gangbang"},
   //{title: `${(ch == true ? false : girlsolo) == true ? p:f}` + "G • Girl Solo", rowId: ".nsfw girlsolo"},
     {title: `${(ch == true ? false : glasses) == true ? p:f}` + "G • Glasses", rowId: ".nsfw glasses"},
-	{title: `${(ch == true ? false : hentai) == true ? p:f}` + "H • Hentai", rowId: ".nsfw hentai"},
 	{title: `${(ch == true ? false : holo) == true ? p:f}` + "H • Holo", rowId: ".nsfw holo"},
 	{title: `${(ch == true ? false : jahy) == true ? p:f}` + "J • Jahy", rowId: ".nsfw jahy"},
   //{title: `${(ch == true ? false : kitsune) == true ? p:f}` + "K • Kitsune", rowId: ".nsfw kitsune"},
@@ -370,13 +368,6 @@ case 'glasses':
           conn.sendButton(m.chat, tekk, fot, cita13, [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
             break
             
-case 'hentai':
-         if ((ch == true ? false : hentai) == true) { 
-	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
-		 }
-          conn.sendButton(m.chat, tekk, fot, await(await fetch(res + 'hentai' + api)).buffer(), [[next, `${usedPrefix}nsfw ${args[0]}`]],m)
-            break
-            
 case 'holo':
          if ((ch == true ? false : holo) == true) { 
 	     if (!isPrems) return conn.sendButton(m.chat, txtprem, botdate, [['ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', '.premium'],['ᴏᴡɴᴇʀ', '.owner nomor']], m)
@@ -554,8 +545,8 @@ default:
 
 }
 
-handler.help = ['nsfw <type>', 'hentai <type>']
+handler.help = ['nsfw <type>']
 handler.tags = ['nsfw', 'premium']
-handler.command = /^(nsfw|hentai)/i
+handler.command = /^(nsfw)/i
 
 export default handler
