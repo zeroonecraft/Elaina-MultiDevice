@@ -22,15 +22,14 @@ export async function all(m) {
     //Responder
     if (m.isGroup) {
       if (m.mentionedJid.includes(this.user.jid)) {
-        await this.sendButton(m.chat, isBanned ? "Grup Ini Diban Oleh owner" : banned ? "Anda telah dibanned" : "Bot Status: Online", author, null, [[isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
+        await this.sendButton(m.chat, isBanned ? "𝙶𝚛𝚞𝚙 𝙸𝚗𝚒 𝙳𝚒𝚋𝚊𝚗 𝙾𝚕𝚎𝚑 𝚘𝚠𝚗𝚎𝚛" : banned ? "𝙰𝚗𝚍𝚊 𝚝𝚎𝚕𝚊𝚑 𝚍𝚒𝚋𝚊𝚗𝚗𝚎𝚍" : "𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜: 𝙾𝚗𝚕𝚒𝚗𝚎", author, null, [[isBanned ? '𝚄𝚗𝚋𝚊𝚗' : banned ? '𝙾𝚠𝚗𝚎𝚛' : '𝙼𝚎𝚗𝚞',
             isBanned ? '.unban' : banned ? '.owner' : '.menu'
                 ]], m)
       }
     }
     //Kontak
     global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ɪᴍʏᴀɴxɪᴀᴏ', 'yanxiao021@gmail.com', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ɪᴍʏᴀɴxɪᴀᴏ', 'yanxiao021@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'Bintang 1302', 'admin@insobot.eu.org', true],
         ]
         //Ucapan
         global.ucapan = ucapan()
@@ -96,20 +95,20 @@ conn.sendFile(m.chat, result.video || result.video_original, "tiktok.mp4", `*Tik
 }
 
 function ucapan() {
-    const time = moment.tz('Asia/Jakarta').format('HH')
-    let res = "Selamat malam 🌙"
-    if (time >= 4) {
-        res = "Selamat pagi 🌄"
-    }
-    if (time > 10) {
-        res = "Selamat siang ☀️"
-    }
-    if (time >= 15) {
-        res = "Selamat sore 🌅"
-    }
-    if (time >= 18) {
-        res = "Selamat malam 🌙"
-    }
+  const time = moment.tz('Asia/Jakarta').format('HH')
+  let res = "Oyasuminasai 🥱"
+  if (time >= 4) {
+    res = "Ohayōgozaimasu 🌄"
+  }
+  if (time >= 12) {
+    res = "Kon'nichiwa ☀️"
+  }
+  /*if (time >= 15) {
+    res = "Sore Kak 🌇"
+  }*/
+  if (time >= 18) {
+    res = "Konbanwa 🌙"
+  }
     return res
 }
 

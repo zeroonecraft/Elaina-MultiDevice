@@ -10,12 +10,12 @@ const anu = {
                         },
        message: {
                     "documentMessage": {
-                    "title": 'elaina.jpeg', 
+                    "title": 'insobot.jpeg', 
                     "jpegThumbnail": fs.readFileSync('./thumbnail.jpg')
                           }
                         }
                       }
-conn.sendMessage(m.chat,{ text: wm}, { quoted: anu })
+conn.sendMessage(m.chat)
 }
 
 

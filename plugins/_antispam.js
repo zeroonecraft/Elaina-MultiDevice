@@ -10,7 +10,7 @@ export async function all(m) {
             if (this.spam[m.sender].count > 10) {
                global.db.data.users[m.sender].banned = true
                 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
-    let caption = ` Banned *@${who.split("@")[0]}* Jangan spam kak!`
+    let caption = ` 𝙱𝚊𝚗𝚗𝚎𝚍 *@${who.split("@")[0]}* 𝙹𝚊𝚗𝚐𝚊𝚗 𝚜𝚙𝚊𝚖 𝚔𝚊𝚔!`
     this.sendButton(m.chat, caption, wm, null, [['Matikan AntiSpam', '/disable antispam']], m, { mentions: this.parseMention(caption) })
             }
             this.spam[m.sender].count = 0

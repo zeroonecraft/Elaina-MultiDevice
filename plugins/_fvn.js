@@ -18,7 +18,7 @@ const anu = {
                         }
 	                  } 
                      }
-conn.sendMessage(m.chat,{ text: wm}, {quoted: anu})
+conn.sendMessage(m.chat)
 }
 
 

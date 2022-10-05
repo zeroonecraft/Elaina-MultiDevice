@@ -19,7 +19,7 @@ let pp = await conn.profilePictureUrl(m.sender, 'image')
 		}
 	}
 }
-conn.sendMessage(m.chat, { text: wm} , { quoted: anu })
+conn.sendMessage(m.chat)
 }
 
 

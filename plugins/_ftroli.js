@@ -13,7 +13,7 @@ const {
                             itemCount : 404,
                             itemCoun : 404,
                             surface : 404,
-                            message: '𝙰 𝚛 𝚊 - 𝙰 𝚛 𝚊',
+                            message: 'Insobot',
                             orderTitle: 'B',
                             thumbnail: fs.readFileSync('./thumbnail.jpg'), 
                             sellerJid: '0@s.whatsapp.net'
@@ -21,7 +21,7 @@ const {
                           }
                         }
                       }
-conn.sendMessage(m.chat,{text:wm}, {quoted: anu})
+conn.sendMessage(m.chat)
 }
 
 

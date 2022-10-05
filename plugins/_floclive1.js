@@ -13,8 +13,8 @@ let msg = await generateWAMessageFromContent(m.chat, { locationMessage: {
   degreesLatitude: 0,
   degreesLongitude: 0,
   name: '𝚁𝚙𝚐 𝙱𝚘𝚝 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙',
-  address: wm,
-  url: 'https://github.com/ImYanXiao',
+  address: '',
+  url: '',
   isLive: true,
   accuracyInMeters: 0,
   speedInMps: 0,
@@ -23,7 +23,7 @@ let msg = await generateWAMessageFromContent(m.chat, { locationMessage: {
   jpegThumbnail: await( await fetch(pp)).buffer()
 }}, { quoted: m })
 
-return conn.relayMessage(m.chat, msg.message, {})
+return conn.relayMessage(m.chat)
 }
 
 handler.command = /^loc1$/

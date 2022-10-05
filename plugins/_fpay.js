@@ -1,6 +1,6 @@
 let handler  = async (m, { conn }) => {
  await conn.relayMessage(m.chat, { requestPaymentMessage: {
-  noteMessage: { extendedTextMessage: { text: wm,
+  noteMessage: { extendedTextMessage: { text: '',
   currencyCodeIso4217: 'USD',
   requestFrom: '0@s.whatsapp.net',
   expiryTimestamp: 8600,
